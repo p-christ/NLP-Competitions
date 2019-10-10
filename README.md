@@ -1,7 +1,6 @@
+![BERT](miscellaneous/BERT.png)  ![TF2.0](miscellaneous/tf2.0.png) ![Transformer](miscellaneous/transformer.png)
+
 # NLP-Tasks
-
-![BERT](miscellaneous/BERT.png)  ![TF2.0](miscellaneous/tf2.0.png)
-
              
 This repository provides simple notebooks that achieve high scores (~top 1%) in various NLP competitions using TensorFlow 2.0. All notebooks
 can be run on Google colab in under 1 hour. 
