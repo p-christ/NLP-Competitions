@@ -1,4 +1,6 @@
-![BERT](miscellaneous/BERT.png)  ![TF2.0](miscellaneous/tf2.0.png) ![Transformer](miscellaneous/transformer.png)
+.............. ![BERT](miscellaneous/BERT.png)  ![TF2.0](miscellaneous/tf2.0.png) ![Transformer](miscellaneous/transformer.png)
+
+<span style="color:blue">some *blue* text</span>.
 
 # NLP-Tasks
              
