@@ -1,6 +1,10 @@
 # NLP-Tasks
 
-This repository provides simple notebooks that achieve high scores (~top 1%) in various NLP competitions. All notebooks
+![BERT](https://i2.wp.com/mlexplained.com/wp-content/uploads/2019/01/bert.png?fit=400%2C400&ssl=1)
+
+![TF2.0](https://cdn-images-1.medium.com/max/1024/1*-QTg-_71YF0SVshMEaKZ_g.png)
+
+This repository provides simple notebooks that achieve high scores (~top 1%) in various NLP competitions using TensorFlow 2.0. All notebooks
 can be run on Google colab in under 1 hour. 
 
 ## 1. Offensive Language Classification ([Codalab](https://competitions.codalab.org/competitions/20011))
