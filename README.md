@@ -1,9 +1,8 @@
 # NLP-Tasks
 
-![BERT](https://i2.wp.com/mlexplained.com/wp-content/uploads/2019/01/bert.png?fit=400%2C400&ssl=1)
+![BERT](miscellaneous/BERT.png)  ![TF2.0](miscellaneous/tf2.0.png)
 
-![TF2.0](https://cdn-images-1.medium.com/max/1024/1*-QTg-_71YF0SVshMEaKZ_g.png)
-
+             
 This repository provides simple notebooks that achieve high scores (~top 1%) in various NLP competitions using TensorFlow 2.0. All notebooks
 can be run on Google colab in under 1 hour. 
 
