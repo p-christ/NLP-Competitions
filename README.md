@@ -11,5 +11,8 @@ can be run on Google colab in under 1 hour.
 We fine-tune a pre-trained BERT model to achieve scores that would have won the competition. See `notebooks/Codalab_Offensive_Language_Competition_ipynb`
 
 ## 2. Toxic Comment Classification ([Kaggle](https://www.kaggle.com/c/jigsaw-toxic-comment-classification-challenge/rules))
-We implement a simple model for this task using Glove word embeddings and a bidirectional GRU that achieve a score 
+We implement a simple model for this task using Glove word embeddings and a bidirectional GRU that achieves a score 
  that would have put us roughly in the top 1\% of Kaggle submissions for this competition. See `notebooks/Toxic_Comment_Classification_(Kaggle)_Simple_Baseline.ipynb` 
+
+
+3rd could be Emo context... https://competitions.codalab.org/competitions/19790#learn_the_details
