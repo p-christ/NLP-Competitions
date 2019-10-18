@@ -4,7 +4,7 @@
 
 # Simple NLP Notebooks
              
-This repository provides links to colab notebooks that achieve high scores in various NLP competitions using TensorFlow 2.0. 
+This repository provides colab notebooks that achieve high scores in various NLP competitions using TensorFlow 2.0. 
 All notebooks are designed to be simple and demonstrate easy ways of creating good baselines for NLP competitions. 
 They can all be run on Google colab in under 1 hour. 
 
