@@ -2,10 +2,18 @@
 
 
 
-# NLP-Tasks
+# Simple NLP Notebooks
              
-This repository provides links to colab notebooks that achieve high scores (~top 1%) in various NLP competitions using TensorFlow 2.0. All notebooks
-can be run on Google colab in under 1 hour. 
+This repository provides links to colab notebooks that achieve high scores in various NLP competitions using TensorFlow 2.0. 
+All notebooks are designed to be simple and demonstrate easy ways of creating good baselines for NLP competitions. 
+They can all be run on Google colab in under 1 hour. 
+
+Some of the techniques demonstrated in these notebooks:
+* Using simple word embeddings like **Glove**
+* Using word embeddings that take more context into account like **BERT**
+* Deciding how much **padding** to use with text data 
+* Using **text data** with ordinary **fully connected networks vs. with sequential networks like GRU**
+* Using fast AI's **Learning rate finder method** to identify a good learning rate  
 
 ## 1. Offensive Language Classification ([Notebook](https://colab.research.google.com/drive/1AstCNMK5_5MMKznrcKslUCFMCCNXk_ae))
 This [Codalab competition](https://competitions.codalab.org/competitions/20011) asked us to classify social media posts
@@ -35,5 +43,15 @@ applied global max and global average pooling to the result, and then finally pu
 * Running this model for only 2 epochs was enough to get a score that would have put us in the top 1% of entries  
 
 
-
-3rd could be Emo context... https://competitions.codalab.org/competitions/19790#learn_the_details
+## 3. Contexual Emotion Detection ([Notebook](https://colab.research.google.com/drive/1WJ-AmYzJLV7Joshl6UxtVGU-wuGJOufu))
+The [Contexual Emotion Detection competition](https://competitions.codalab.org/competitions/19790) provides training data 
+consisting of 3 back and forth messages between 2 people. We then need to classify the emotion felt at the end of the 
+conversation as sad, angry, happy or other. The simple notebook provides a good baseline for the competition, roughly achieving 
+an F1 score of ~0.65 compared to 0.7 which won the competition. To do this we followed these steps:
+   
+* We plotted the distribution of sentence lengths to decide how much padding we needed
+* We prepared all sentences for entry into a BERT model by tokenizing them and adding special characters
+* We genereated BERT embeddings for all the data and saved it to disk
+* We initialised a model with 1 GRU layer and 2 additional fully connected layers. We also used dropout.  
+* We used a learning rate finder method similar to fast AI's to identify a reasonable learning rate
+* We trained the model for 300 epochs in about 25 minutes
