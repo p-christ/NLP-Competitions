@@ -13,7 +13,7 @@ Some of the techniques demonstrated in these notebooks:
 * Using word embeddings that take more context into account like **BERT**
 * Deciding how much **padding** to use with text data 
 * Using **text data** with ordinary **fully connected networks vs. with sequential networks like GRU**
-* Using fast AI's **Learning rate finder method** to identify a good learning rate  
+* Using fast AI's **learning rate finder method** to identify a good learning rate  
 
 ## 1. Offensive Language Classification ([Notebook](https://colab.research.google.com/drive/1AstCNMK5_5MMKznrcKslUCFMCCNXk_ae))
 This [Codalab competition](https://competitions.codalab.org/competitions/20011) asked us to classify social media posts
