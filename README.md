@@ -47,7 +47,7 @@ applied global max and global average pooling to the result, and then finally pu
 The [Contexual Emotion Detection competition](https://competitions.codalab.org/competitions/19790) provides training data 
 consisting of 3 back and forth messages between 2 people. We then need to classify the emotion felt at the end of the 
 conversation as sad, angry, happy or other. The simple notebook provides a good baseline for the competition, roughly achieving 
-an F1 score of ~0.65 compared to 0.7 which won the competition. To do this we followed these steps:
+an F1 score of ~0.65 compared to ~0.7 which won the competition. To do this we followed these steps:
    
 * We plotted the distribution of sentence lengths to decide how much padding we needed
 * We prepared all sentences for entry into a BERT model by tokenizing them and adding special characters
